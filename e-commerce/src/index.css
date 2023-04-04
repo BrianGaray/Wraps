@@ -20,5 +20,10 @@ code {
   box-shadow: inset 1.10px 1.91px 3.01px -0.38px rgba(15, 15, 15, 0.15),
   inset -1.65px -2.86px 3.01px -0.38px rgba(15, 15, 15, 0.3),
   3.30px 5.72px 2.25px -1.13px rgba(15, 15, 15, 0.6);
-  margin: 1rem 0;
 }
+
+.illustration {
+  margin: 0px -12px -8px;
+}
+
+
