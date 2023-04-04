@@ -13,12 +13,12 @@ const Item = ({ items }) => {
     <div className="m-2">
         <div className="card w-46 m-auto bg-base-100 shadow-xl">
           <figure>
-            <img className="p-2 rounded-3xl" src={items.img} alt="Shoes" />
+            <img className="p-2 rounded-3xl w-11/12" src={items.img} alt="Shoes" />
           </figure>
           <div className="card-body p-2">
             <h2 className="card-title">
              
-              <div className="badge badge-primary">30% OFF</div>
+              {/* <div className="badge badge-primary">30% OFF</div> */}
             </h2>
 
             <div className="card-actions justify-end">
@@ -32,12 +32,12 @@ const Item = ({ items }) => {
         </div>
         <div className="card w-46 m-auto bg-base-100 shadow-xl">
           <figure>
-            <img className="p-2 rounded-3xl" src={items.img} alt="Shoes" />
+            <img className="p-2 rounded-3xl w-11/12" src={items.img} alt="Shoes" />
           </figure>
           <div className="card-body p-2">
             <h2 className="card-title">
              
-              <div className="badge badge-primary">30% OFF</div>
+              {/* <div className="badge badge-primary">30% OFF</div> */}
             </h2>
 
             <div className="card-actions justify-end">
@@ -52,12 +52,12 @@ const Item = ({ items }) => {
         </div>
         <div className="card w-46 m-auto bg-base-100 shadow-xl">
           <figure>
-            <img className="p-2 rounded-3xl" src={items.img} alt="Shoes" />
+            <img className="p-2 rounded-3xl w-11/12" src={items.img} alt="Shoes" />
           </figure>
           <div className="card-body p-2">
             <h2 className="card-title">
              
-              <div className="badge badge-primary">30% OFF</div>
+              {/* <div className="badge badge-primary">30% OFF</div> */}
             </h2>
 
             <div className="card-actions justify-end">
