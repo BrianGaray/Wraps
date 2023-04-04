@@ -33,7 +33,7 @@ const Theme = () => {
       </button>
       <button
         data-act-class="shadow-outline"
-        data-set-theme="night"
+        data-set-theme="dracula"
         class="bg-green-700 focus:outline-none m-1 rounded p-2"
       >
       night
