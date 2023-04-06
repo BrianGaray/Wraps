@@ -12,7 +12,7 @@ const ItemList = ({ items }) => {
       </div> */}
       <div className="carousel shadow rounded-box w-full">
   <div id="item1" className="carousel-item w-full">
-    <img src="https://i.ibb.co/6XSJxxg/Home-2.png" className="w-full" />
+    <img src="https://i.ibb.co/Y2tJjtv/monis-wraps-market-3.png" className="w-full" />
   </div> 
   <div id="item2" className="carousel-item w-full">
     <img src="https://i.ibb.co/6XSJxxg/Home-2.png" className="w-full" />

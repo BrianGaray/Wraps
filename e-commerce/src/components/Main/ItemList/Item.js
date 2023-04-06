@@ -8,11 +8,11 @@ const Item = ({ items }) => {
 
       {/* //cards  */}
       <div className="promos">
-        <div className="card m-auto bg-base-100 shadow-xl w-full h-48">
+        <div className="card m-auto bg-base-100 shadow-xl w-full">
           <figure>
             <img
               className="p-2 rounded-3xl"
-              src="https://i.ibb.co/vvmB3pZ/wraps-5-removebg-preview.png"
+              src="https://i.ibb.co/sPgz2hz/imagen-1-removebg-preview.png"
               alt="Shoes"
             />
             <div className="badge badge-primary absolute top-2 left-2">
