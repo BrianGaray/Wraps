@@ -38,9 +38,7 @@ const Item = ({ items }) => {
             <div className="card-actions gap-1 justify-end">
             
 
-              <div className="badge badge-error">
-                <del>400</del>$
-              </div>
+
               <div className="badge badge-primary">350$</div>
             </div>
           </div>

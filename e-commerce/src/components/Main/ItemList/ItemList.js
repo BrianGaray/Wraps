@@ -10,7 +10,6 @@ const ItemList = ({ items }) => {
             src="https://i.ibb.co/bb10p4j/g-06-Eu-V0-KETM-Rf-Y6p-JVe-transformed-1.png"
           />
       </div>
-     
 
       <div className="cards grid grid-cols-2 gap-4">
         {items.map((items) => {
