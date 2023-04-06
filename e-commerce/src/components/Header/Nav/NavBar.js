@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Nav() {
   return (
-    <section className="navbar bg-base-100 mb-2 z-50">
+    <section className="navbar shadow rounded-box bg-base-100 mb-2 z-50">
      
       <div className="Menu flex-none lg:hidden">
         <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">

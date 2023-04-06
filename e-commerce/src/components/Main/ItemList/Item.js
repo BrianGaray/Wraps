@@ -8,10 +8,10 @@ const Item = ({ items }) => {
 
       {/* //cards  */}
       <div className="promos">
-        <div className="card m-auto bg-base-100 shadow-xl">
+        <div className="card m-auto bg-base-100 shadow-xl w-full">
           <figure>
             <img
-              className="w-full p-2 rounded-3xl"
+              className="p-2 rounded-3xl"
               src={items.img}
               alt="Shoes"
             />
@@ -38,7 +38,7 @@ const Item = ({ items }) => {
             <div className="card-actions gap-1 justify-end">
             
 
-
+            <div className="badge badge-error">400$</div>
               <div className="badge badge-primary">350$</div>
             </div>
           </div>
