@@ -10,12 +10,12 @@ const ItemList = ({ items }) => {
             src="https://i.ibb.co/bb10p4j/g-06-Eu-V0-KETM-Rf-Y6p-JVe-transformed-1.png"
           />
       </div> */}
-      <div className="carousel rounded-box w-full">
+      <div className="carousel shadow rounded-box w-full">
   <div id="item1" className="carousel-item w-full">
-    <img src="https://i.ibb.co/4wk6dTt/Home.png" className="w-full" />
+    <img src="https://i.ibb.co/6XSJxxg/Home-2.png" className="w-full" />
   </div> 
   <div id="item2" className="carousel-item w-full">
-    <img src="https://i.ibb.co/4wk6dTt/Home.png" className="w-full" />
+    <img src="https://i.ibb.co/6XSJxxg/Home-2.png" className="w-full" />
   </div> 
 </div> 
 <div className="flex justify-center w-full py-2 gap-2">
