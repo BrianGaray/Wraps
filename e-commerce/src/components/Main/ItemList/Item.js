@@ -12,7 +12,7 @@ const Item = ({ items }) => {
           <figure>
             <img
               className="p-2 rounded-3xl"
-              src="https://i.ibb.co/sPgz2hz/imagen-1-removebg-preview.png"
+              src="https://i.ibb.co/2MWyNxb/wraps-7-1.png"
               alt="Shoes"
             />
             <div className="badge badge-primary absolute top-2 left-2">
