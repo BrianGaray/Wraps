@@ -2,8 +2,9 @@ import Items from "./Item";
 
 const ItemList = ({ items }) => {
   return (
-    <section className="ItemList p-4 gap-10 flex flex-col items-center justify-center">
-      <div className="card bg-base-100 flex-row-reverse">
+    <section className="ItemList p-10 gap-10 flex flex-col items-center justify-center">
+      <div className="card bg-base-100">
+      <h1 className="text-4xl font-bold p-4">monis wraps market</h1>
       <img
             className="illustration"
             src="https://i.ibb.co/bb10p4j/g-06-Eu-V0-KETM-Rf-Y6p-JVe-transformed-1.png"
