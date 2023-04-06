@@ -5,7 +5,7 @@ import Theme from "./Theme";
 
 const Drawer = () => {
   return (
-    <div className="drawer">
+    <div className="drawer bg-base-2">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* <!-- Navbar --> */}
