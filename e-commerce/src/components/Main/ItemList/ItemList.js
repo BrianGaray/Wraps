@@ -2,7 +2,7 @@ import Items from "./Item";
 
 const ItemList = ({ items }) => {
   return (
-    <section className="ItemList p-10 gap-10 flex flex-col items-center justify-center">
+    <section className="ItemList p-6 gap-12 flex flex-col items-center justify-center">
       <div className="card flex-row bg-base-100">
       <h1 className="text-4xl font-bold p-4">monis wraps market</h1>
       <img

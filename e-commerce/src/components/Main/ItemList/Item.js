@@ -19,7 +19,7 @@ const Item = ({ items }) => {
               30% OFF
             </div>
           </figure>
-          <div className="p-3">
+          <div className="p-2">
             <h2 className="card-title"></h2>
             <svg
                 className="w-5 absolute"
