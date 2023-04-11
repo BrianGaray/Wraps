@@ -2,7 +2,7 @@ import Items from "./Item";
 
 const ItemList = ({ items }) => {
   return (
-    <section className="ItemList gap-2 flex flex-col items-center justify-center p-6">
+    <section className="ItemList gap-2 flex flex-col items-center justify-center p-5">
       {/* <div className="grid grid-cols-2 bg-base-100 w-full">
       <h1 className="text-4xl font-bold p-4">monis wraps market</h1>
       <img

@@ -15,8 +15,8 @@ const ItemDetail = ({ items }) => {
   const ProductQuantity = getProductQuantity(items.id);
 
   return (
-    <section className="ItemDetail p-6">
-      <div className="detail shadow rounded-box p-4 flex flex-col gap-4">
+    <section className="ItemDetail p-5">
+      <div className="detail shadow rounded-box bg-base-100 p-4 flex flex-col gap-4">
         <figure>
           <img className="rounded-box" src={items.img} alt="Shoes" />
         </figure>

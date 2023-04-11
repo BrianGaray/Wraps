@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const CartDetail = ({ prod, removeItem, total }) => {
   return (
-    <div className="products-cart shadow m-4 rounded-box bg-base-100 ">
+    <div className="products-cart shadow m-5 rounded-box bg-base-100">
      
       <div class="mt-2 p-2">
                 <div class="flow-root">
