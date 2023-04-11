@@ -16,18 +16,18 @@ const ItemDetail = ({ items }) => {
 
   return (
     <section className="ItemDetail p-5">
-      <div className="detail shadow rounded-box bg-base-100 p-4 flex flex-col gap-4">
+      <div className="detail shadow rounded-box bg-base-100 p-2 flex flex-col gap-1">
         <figure>
           <img className="rounded-box" src={items.img} alt="Shoes" />
         </figure>
-       
+        <div className="p-6 flex flex-col gap-4">
         <h2 className="">
           Wraps!
           <div className="badge badge-secondary">NEW</div>
         </h2>
         <p>If a dog chews shoes whose shoes does he choose?</p>
 
-        <div className="">
+      
           {quantity === 0 ? (
             <ItemCount
               initial={ProductQuantity}
