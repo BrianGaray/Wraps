@@ -22,7 +22,7 @@ const Cart = () => {
   }
 
   return (
-    <section className="cart">
+    <section className="cart mx-4 my-24">
       {cart.map((prod) => (
         <CartDetail
           key={prod.id}
@@ -31,6 +31,7 @@ const Cart = () => {
           total={total}
         />
       ))}
+     
       <div className="flex items-center justify-center m-6">
         <button className="btn btn-error" onClick={clearAll}>
           clear all
