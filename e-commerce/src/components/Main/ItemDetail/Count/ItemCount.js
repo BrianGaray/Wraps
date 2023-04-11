@@ -24,25 +24,25 @@ const ItemCount = ({ stock, onAdd, initial = 1 }) => {
   };
 
   return (
-    <div className="AddToCart flex flex-col items-center justify-center gap-2">
-      {/* <button onClick={Add}>+</button>
-      <button>{Count}</button>
-      <button onClick={Remove}>-</button>
-      <button onClick={AddToCart}>Agregar al carrito</button> */}
-
-      <div className="btn-group">
-        <button className="btn bg-neutral" onClick={Add}>
-          <span className="text-xl">+</span>
-        </button>
-        <button className="btn bg-neutral">
-          <span className="text-base">{Count}</span>
-        </button>
-        <button className="btn bg-neutral" onClick={Remove}>
-          <span className="text-xl">-</span>
-        </button>
+    <section className="count flex flex-col justify-center gap-4">
+      <div className="layout flex items-center justify-between">
+        <div className="btn-group">
+          <button className="btn bg-neutral" onClick={Add}>
+            <span className="text-xl">+</span>
+          </button>
+          <button className="btn bg-neutral">
+            <span className="text-base">{Count}</span>
+          </button>
+          <button className="btn bg-neutral" onClick={Remove}>
+            <span className="text-xl">-</span>
+          </button>
+        </div>
+        <div className="badge badge-primary p-4 text-lg">$400</div>
       </div>
-      <button className="btn btn-primary" onClick={AddToCart}>Agregar al carrito</button>
-    </div>
+      <button className="btn btn-primary" onClick={AddToCart}>
+        Agregar al carrito
+      </button>
+    </section>
   );
 };
 

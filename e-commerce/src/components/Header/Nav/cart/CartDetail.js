@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 const CartDetail = ({ prod, removeItem, total }) => {
   return (
-    <div className="products-cart bg-base-100">
+    <div className="products-cart shadow m-4 rounded-box bg-base-100 ">
      
       <div class="mt-2 p-2">
                 <div class="flow-root">
                   <ul role="list" class="-my-6 divide-y divide-gray-200">
                     <li class="flex py-6">
-                      <div class="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+                      <div class="h-24 w-24 flex-shrink-0 overflow-hidden rounded-box">
                         <img className="h-full w-full object-cover object-center" src={prod.img} alt=""></img>
                       </div>
 
