@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Header/Header";
 import Main from "../Main/Main";
 import Theme from "./Theme";
+import Footer from "../Footer/footer";
 
 const Drawer = () => {
   return (
@@ -13,6 +14,7 @@ const Drawer = () => {
         
         {/* <!-- Page content here --> */}
         <Main />
+        <Footer />
       </div>
       <div className="drawer-side">
         <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
