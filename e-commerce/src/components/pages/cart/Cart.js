@@ -12,10 +12,16 @@ const Cart = () => {
   if (cart.length === 0) {
     return (
       <>
-        <div>
-          <h2>Carrito vacío</h2>
-          <button>
-            <Link to="/">Ir al home</Link>
+        <div className="flex flex-col items-center justify-center p-32 gap-6">
+        <p className="text-3xl font-serif">próximamente</p>
+          <img
+            src="https://media-public.canva.com/MADpjvFWvUA/1/screen.svg"
+            alt="Yellow-E-commerce-Shop-Bag-Store-Logo-removebg-preview"
+            border="0"
+          ></img>
+          
+          <button className="btn">
+            <Link to="/">volver al inicio</Link>
           </button>
         </div>
       </>
@@ -33,7 +39,7 @@ const Cart = () => {
           total={total}
         />
       ))}
-     
+
       <div className="flex items-center justify-center m-6">
         <button className="btn btn-error" onClick={clearAll}>
           Vaciar carrito

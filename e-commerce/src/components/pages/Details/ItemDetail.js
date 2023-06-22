@@ -18,13 +18,13 @@ const ItemDetail = ({ items }) => {
   const ProductQuantity = getProductQuantity(items.id);
 
   return (
-    <section className="ItemDetail mx-4 my-24">
-      <div className="detail flex flex-col items-center justify-center gap-3 py-6 px-20">
-        <div className="mb-10 text-2xl">
-          <p>criollos hojaldre</p>
+    <section className="ItemDetail font-serif mx-4 my-24">
+      <div className="detail flex flex-col items-center justify-center gap-3 py-6 px-16">
+        <div className="mb-10 text-3xl">
+          <p>{items.title}</p>
         </div>
         <figure>
-          <img className="rounded-box" src={items.img} alt="Shoes" />
+          <img className="rounded-box" src={items.img} alt="Productos" />
         </figure>
     
         <div className="rating mb-8">
@@ -37,33 +37,35 @@ const ItemDetail = ({ items }) => {
             type="radio"
             name="rating-2"
             className="mask mask-star-2 bg-orange-400"
+        
+          />
+          <input
+            type="radio"
+            name="rating-2"
+            className="mask mask-star-2 bg-orange-400"
+          />
+          <input
+            type="radio"
+            name="rating-2"
+            className="mask mask-star-2 bg-orange-400"
+          />
+          <input
+            type="radio"
+            name="rating-2"
+            className="mask mask-star-2 bg-orange-400"
             checked
           />
-          <input
-            type="radio"
-            name="rating-2"
-            className="mask mask-star-2 bg-orange-400"
-          />
-          <input
-            type="radio"
-            name="rating-2"
-            className="mask mask-star-2 bg-orange-400"
-          />
-          <input
-            type="radio"
-            name="rating-2"
-            className="mask mask-star-2 bg-orange-400"
-          />
         </div>
-        <div>
+        <div className="font-sans">
           <p>
-            Pan hecho con harina integral, huevo, leche, avena, miel, semillas
-            de sésamo, chía y lino.
+           {items.description}
           </p>
         </div>
-        <div className="mr-auto flex flex-col justify-start">
+        <div className="mr-auto flex flex-col justify-start font-sans">
           <div className="text-2xl">precio:</div>
-          <div className="text-2xl">$250</div>
+          <div className="text-2xl">
+          ${items.price}
+          </div>
         </div>
         {/* <div className="p-6 flex flex-col gap-4">
           <h2 className="">

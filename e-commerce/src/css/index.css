@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
-  background-color: #ECEDF2 !important;
-}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -34,8 +30,4 @@ code {
   
 
 } */
- .card{
-  background: #ffff;
- }
-
 

@@ -5,8 +5,8 @@ import Items from "./Item";
 const ItemList = ({ items }) => {
   return (
     <section className="ItemList gap-2 flex flex-col items-center justify-center mx-4 my-24">
-        <div className="text-4xl mb-16"> 
-          <p>Menu</p>
+        <div className="text-5xl mb-16 font-serif"> 
+          <p>Menú</p>
         </div>
       <div className="cards grid grid-cols-2 gap-5">
     

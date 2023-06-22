@@ -3,10 +3,11 @@ import Header from "../../layout/Header";
 import Main from "../../layout/Main";
 //import Theme from "../../common/Theme";
 import Footer from "../../layout/footer";
+import Theme from "../../common/Theme";
 
 const Drawer = () => {
   return (
-    <div className="drawer" role="navigation">
+    <div className="drawer bg-base-200" role="navigation">
       {/* Checkbox para abrir y cerrar el drawer */}
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
 
@@ -28,12 +29,12 @@ const Drawer = () => {
         <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
 
         {/* Lista de opciones del menú lateral */}
-        <ul className="menu p-4 w-80 bg-white">
+        <ul className="menu p-4 w-80 bg-base-100">
           {/* Selector de tema */}
      
 
           {/* Opción 1 del menú lateral */}
-          <button className="btn">modo oscuro</button>
+          <Theme/>
 
           {/* Opción 2 del menú lateral */}
       

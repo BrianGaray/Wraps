@@ -8,35 +8,27 @@ const Theme = () => {
     // 👆 false parameter is required for react project
   }, []);
   return (
-    <div class="m-5">
-      <h2 class="mb-4 text-2xl text-green-700 font-bold">Buttons</h2>
+    <div className="flex flex-col gap-3">
       <button
+        className="btn"
         data-act-class="shadow-outline"
-        data-set-theme="garden"
-        class="bg-green-700 focus:outline-none m-1 rounded p-2"
+        data-set-theme="default"
       >
         Default
       </button>
       <button
+        className="btn"
         data-act-class="shadow-outline"
         data-set-theme="dark"
-        class="bg-green-700 focus:outline-none m-1 rounded p-2"
       >
         Dark
       </button>
       <button
+        className="btn"
         data-act-class="shadow-outline"
         data-set-theme="valentine"
-        class="bg-green-700 focus:outline-none m-1 rounded p-2"
       >
-    valentine
-      </button>
-      <button
-        data-act-class="shadow-outline"
-        data-set-theme="dracula"
-        class="bg-green-700 focus:outline-none m-1 rounded p-2"
-      >
-      night
+        Love
       </button>
     </div>
   );

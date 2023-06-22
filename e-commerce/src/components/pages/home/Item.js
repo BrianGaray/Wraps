@@ -17,7 +17,7 @@ const Item = ({ items }) => {
       {/* Sección que contiene la tarjeta del ítem */}
       <section className="promos">
     
-        <div className="card flex items-center flex-col gap-px shadow-xl w-full p-2 text-lg">
+        <div className="card bg-base-100 flex items-center flex-col gap-px shadow-xl w-full p-3 text-lg">
      
           <figure>
             {/* Imagen del ítem */}
@@ -55,9 +55,25 @@ const Item = ({ items }) => {
             </div>
           </div>*/}
           <div>
-            <p>criollos hojaldre</p>
+            <p>{items.title}</p>
           </div>
           <div className="rating">
+            <input
+              type="radio"
+              name="rating-5"
+              className="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              className="mask mask-star-2 bg-orange-400"
+              
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              className="mask mask-star-2 bg-orange-400"
+            />
             <input
               type="radio"
               name="rating-2"
@@ -68,21 +84,6 @@ const Item = ({ items }) => {
               name="rating-2"
               className="mask mask-star-2 bg-orange-400"
               checked
-            />
-            <input
-              type="radio"
-              name="rating-2"
-              className="mask mask-star-2 bg-orange-400"
-            />
-            <input
-              type="radio"
-              name="rating-2"
-              className="mask mask-star-2 bg-orange-400"
-            />
-            <input
-              type="radio"
-              name="rating-2"
-              className="mask mask-star-2 bg-orange-400"
             />
           </div>
           {/* Enlace a la página del ítem */}
