@@ -17,12 +17,12 @@ const Item = ({ items }) => {
       {/* Sección que contiene la tarjeta del ítem */}
       <section className="promos">
     
-        <div className="card bg-base-100 flex items-center flex-col gap-px shadow-xl w-full p-3 text-lg">
+        <div className="card bg-base-100 flex items-center flex-col gap-0.5 shadow-xl w-full px-5 py-3 text-lg">
      
-          <figure>
+          <figure className="DropShadow">
             {/* Imagen del ítem */}
-            <img
-              className="p-2 rounded-3xl"
+            <img className="p-2"
+              
               src={items.img}
             />
             {/* Descuento en el ítem */}

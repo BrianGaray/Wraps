@@ -19,12 +19,12 @@ const ItemDetail = ({ items }) => {
 
   return (
     <section className="ItemDetail font-serif mx-4 my-24">
-      <div className="detail flex flex-col items-center justify-center gap-3 py-6 px-16">
+      <div className="detail flex flex-col items-center justify-center gap-3 py-6 px-20">
         <div className="mb-10 text-3xl">
           <p>{items.title}</p>
         </div>
         <figure>
-          <img className="rounded-box" src={items.img} alt="Productos" />
+          <img className="rounded-box DropShadow" src={items.img} alt="Productos" />
         </figure>
     
         <div className="rating mb-8">
